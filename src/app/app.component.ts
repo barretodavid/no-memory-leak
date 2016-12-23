@@ -10,7 +10,7 @@ import { Observable } from 'rxjs';
 })
 export class AppComponent implements OnInit {
   myArray$: Observable<any>;
-  url = 'http://10.132.56.83:8765/iv2/api/devices?tree=1&view=1';
+  url = 'http://localhost:8765/iv2/api/devices?tree=1&view=1';
 
   constructor(private http: Http) {}
 
