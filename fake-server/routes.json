@@ -1,0 +1,4 @@
+{
+  "/iv2/api/configuration/:resource": "/:resource",
+  "/iv2/api/:resource": "/:resource"
+}

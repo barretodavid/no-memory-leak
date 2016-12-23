@@ -9,7 +9,8 @@
     "lint": "tslint \"src/**/*.ts\"",
     "test": "ng test",
     "pree2e": "webdriver-manager update --standalone false --gecko false",
-    "e2e": "protractor"
+    "e2e": "protractor",
+    "fake-server": "json-server --watch fake-server/db.json --port 8765 --routes fake-server/routes.json"
   },
   "private": true,
   "dependencies": {
@@ -34,6 +35,7 @@
     "codelyzer": "~2.0.0-beta.1",
     "jasmine-core": "2.5.2",
     "jasmine-spec-reporter": "2.5.0",
+    "json-server": "0.9.4",
     "karma": "1.2.0",
     "karma-chrome-launcher": "^2.0.0",
     "karma-cli": "^1.0.1",
